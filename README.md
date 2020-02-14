@@ -1,2 +1,1 @@
-# SlotMachine
-Slot machine made with c++
+# GAME3001 - S2019 - Lesson 6 - Repo for Pathfinding
