@@ -5,9 +5,11 @@
  ** Game app description: This is a simple one line slotmachine that includes 5 different bets,
  **							jackpot and different winning conditions.
  ** Attribution credits:
- **			Background slotmachine image ~~ Vecteezy.com
- **			Slot Images ~~ opengameart.org
- **			
+ ***		Background slotmachine image ~~ Vecteezy.com
+ ***		Slot Images ~~ opengameart.org
+ ***		Some files to have basic gameapp structure:
+ ****				Game, Collisionmanager,Soundmanager, Texturemanager, Displayobject, Gameobject,
+ ****				main, Scene and util provided by ~~ Tom Tsiliopoulos
  ** Revision history: 15.02.2020 ~~ Version 1.0 created
  */
 
