@@ -6,7 +6,7 @@ SpinButton::SpinButton()
 	:Button(
 		"../Assets/textures/spin.png",
 		"spin",
-		START_BUTTON, glm::vec2(450, 400.0f)), m_isClicked(false)
+		SPIN_BUTTON, glm::vec2(650, 425.0f)), m_isClicked(false)
 {
 	
 }
@@ -26,10 +26,7 @@ bool SpinButton::ButtonClick()
 		}
 		return true;
 	}
-	else
-	{
-		m_isClicked = false;
-	}
+	
 
 	return false;
 }

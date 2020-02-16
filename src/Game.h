@@ -22,7 +22,7 @@
 #include "Util.h"
 
 // Scenes
-#include "SlotMachine.h"
+#include "SlotMachineScene.h"
 #include "EndScene.h"
 
 class Game

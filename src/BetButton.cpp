@@ -6,7 +6,7 @@ BetButton::BetButton()
 	:Button(
 		"../Assets/textures/bet.png",
 		"bet",
-		START_BUTTON, glm::vec2(400.0f, 400.0f)), m_isClicked(false)
+		BET_BUTTON, glm::vec2(400.0f, 425.0f)), m_isClicked(false)
 {
 	
 }
@@ -31,7 +31,7 @@ bool BetButton::ButtonClick()
 	{
 		if (!m_isClicked)
 		{
-			std::cout << "Bet Button Clicked!" << std::endl;
+			
 			m_isClicked = true;
 			
 			

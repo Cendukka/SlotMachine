@@ -4,22 +4,8 @@
 
 #include <glm\vec2.hpp>
 #include <string>
+#include "GameObjectType.h"
 
-enum GameObjectType {
-	NONE = -1,
-	START_BUTTON,
-	NUM_OF_TYPES
-};
-
-enum State {
-	NO_STATE= -1,
-	IDLE,
-	SEEK,
-	ARRIVE,
-	AVOID,
-	FLEE,
-	NUM_OF_STATES
-};
 
 class GameObject {
 public:
@@ -45,7 +31,6 @@ public:
 	int getHeight();
 	bool getIsColliding();
 	GameObjectType getType();
-	State getState();
 
 	// setters for common variables
 	void setPosition(glm::vec2 newPosition);
@@ -54,7 +39,6 @@ public:
 	void setVelocity(glm::vec2 newVelocity);
 	void setIsColliding(bool collision);
 	void setType(GameObjectType newType);
-	void setState(State newState);
 	void setAcceleration(glm::vec2 newAcceleration);
 
 private:
@@ -80,7 +64,6 @@ private:
 	// collision variables
 	bool m_isColliding;
 	GameObjectType m_type;
-	State m_state;
 };
 
 #endif

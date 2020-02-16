@@ -61,7 +61,7 @@ void EndScene::handleEvents()
 void EndScene::start()
 {
 	SDL_Color blue = { 0, 0, 255, 255 };
-	m_Label = new Label("YOU LOST!", "Dock51", 80, blue, glm::vec2(400.0f, 40.0f));
+	m_Label = new Label("YOU LOST!", "Dock51", 40, blue, glm::vec2(400.0f, 40.0f));
 	m_Label->setParent(this);
 	addChild(m_Label);
 }

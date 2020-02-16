@@ -25,6 +25,9 @@
     <Filter Include="Game Objects">
       <UniqueIdentifier>{4df01ff0-0e04-4c4d-ac5d-b7efa07fd705}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Enums">
+      <UniqueIdentifier>{77d27c9f-4799-4957-a89e-9a182ad93f59}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp">
@@ -72,14 +75,8 @@
     <ClCompile Include="..\src\Label.cpp">
       <Filter>Game Objects</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\EndScene.cpp">
-      <Filter>Scenes</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\DisplayObject.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\SlotMachine.cpp">
-      <Filter>Scenes</Filter>
     </ClCompile>
     <ClCompile Include="..\src\Button.cpp">
       <Filter>Game Objects</Filter>
@@ -88,6 +85,30 @@
       <Filter>Game Objects</Filter>
     </ClCompile>
     <ClCompile Include="..\src\BetButton.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SlotMachineScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SlotMachineWheel.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SlotMachine.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SlotLeft.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SlotMiddle.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SlotRight.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ResetButton.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QuitButton.cpp">
       <Filter>Game Objects</Filter>
     </ClCompile>
   </ItemGroup>
@@ -137,23 +158,14 @@
     <ClInclude Include="..\src\Config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\TileComparators.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\Scene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Label.h">
       <Filter>Game Objects</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\EndScene.h">
-      <Filter>Scenes</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\DisplayObject.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\SlotMachine.h">
-      <Filter>Scenes</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Button.h">
       <Filter>Game Objects</Filter>
@@ -163,6 +175,36 @@
     </ClInclude>
     <ClInclude Include="..\src\BetButton.h">
       <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SlotMachineScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SlotMachineWheel.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SlotMachine.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SlotLeft.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SlotMiddle.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SlotRight.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\QuitButton.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ResetButton.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameObjectType.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SlotImage.h">
+      <Filter>Enums</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

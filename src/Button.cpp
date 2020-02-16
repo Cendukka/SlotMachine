@@ -48,6 +48,11 @@ void Button::setMouseButtonClicked(bool clicked)
 	m_mouseButtonClicked = clicked;
 }
 
+void Button::setAlpha(Uint8 newAlpha)
+{
+	m_alpha = newAlpha;
+}
+
 
 bool Button::m_mouseOver()
 {

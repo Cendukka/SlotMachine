@@ -22,6 +22,7 @@ public:
 	// setters
 	void setMousePosition(glm::vec2 mousePosition);
 	void setMouseButtonClicked(bool clicked);
+	void setAlpha(Uint8 newAlpha);
 
 	virtual bool ButtonClick() = 0;
 	

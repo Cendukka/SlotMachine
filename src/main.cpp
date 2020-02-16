@@ -1,3 +1,19 @@
+/*
+ ** Author: Samuli Lehtonen
+ ** Student number: 301121118
+ ** Creation date: 15.02.2020
+ ** Game app description: This is a simple one line slotmachine that includes 5 different bets,
+ **							jackpot and different winning conditions.
+ ** Attribution credits:
+ **			Background slotmachine image ~~ Vecteezy.com
+ **			Slot Images ~~ opengameart.org
+ **			
+ ** Revision history: 15.02.2020 ~~ Version 1.0 created
+ */
+
+
+
+
 // Core Libraries
 #include <stdlib.h>
 #include <crtdbg.h>
@@ -8,15 +24,8 @@
 #include <math.h>
 #include <Windows.h>
 
-//#include <map> // for std::map
-//#include <memory> // for std::shared_ptr
-//#include <fstream>
-
 // 3rd Party Libraries
 #include <GLEW\glew.h>
-//#include <GLUT/freeglut.h>
-//#include <IL/il.h> // for ilInit()
-//#include "IL\ilu.h"
 #include <glm\vec3.hpp>
 #include <glm\gtx\color_space.hpp>
 
@@ -38,7 +47,7 @@ int main(int argc, char* args[])
 	freopen("CON", "w", stdout);
 
 
-	TheGame::Instance()->init("Slot machine", 100, 100, 800, 600, false);
+	TheGame::Instance()->init("The Epic Slot Machine", 100, 100, 800, 600, false);
 
 	while (TheGame::Instance()->running())
 	{

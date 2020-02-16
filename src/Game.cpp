@@ -139,12 +139,8 @@ void Game::changeSceneState(SceneState newState)
 		switch (m_currentSceneState)
 		{
 		case SceneState::SLOTMACHINE:
-			m_currentScene = new SlotMachine();
+			m_currentScene = new SlotMachineScene();
 			std::cout << "Slotmachine activated" << std::endl;
-			break;
-		case SceneState::END_SCENE:
-			m_currentScene = new EndScene();
-			std::cout << "end scene activated" << std::endl;
 			break;
 		default:
 			std::cout << "default case activated" << std::endl;
